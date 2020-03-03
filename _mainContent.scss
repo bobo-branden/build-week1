@@ -1,0 +1,34 @@
+.main-content{
+    width: 35%;
+    height: 100vh;
+    padding-top: 5% ;
+    h1{
+        font-size: 3rem;
+    }
+    .position{
+        margin-bottom: 35px;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    button{
+        margin: 40px auto;
+        width: 39%;
+        height: 5rem;
+        border-radius: 1.5rem;
+        background-color: purple;
+        color: white;
+        font-size: 2rem;
+        font-weight: 900;
+        a{
+            color: white;
+        }
+    }
+    .buttons{
+        display: flex;
+        button{
+            width: 30%;
+        }
+    }
+
+}

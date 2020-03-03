@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.head {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head a img {
+  width: 100%;
+}
+
+.head .logo {
+  width: 20%;
+}
+
+.head .nav-bar {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.q {
+  text-decoration: none;
+  font-size: 5.5rem;
+  font-weight: 900;
+  color: skyblue;
+}
+
+.queue {
+  text-decoration: none;
+  font-size: 2.75rem;
+}
+
+.main-content {
+  width: 35%;
+  height: 100vh;
+  padding-top: 5%;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+}
+
+.main-content .position {
+  margin-bottom: 35px;
+}
+
+.main-content h2 {
+  font-size: 2rem;
+}
+
+.main-content button {
+  margin: 40px auto;
+  width: 39%;
+  height: 5rem;
+  border-radius: 1.5rem;
+  background-color: purple;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.main-content button a {
+  color: white;
+}
+
+.main-content .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content .buttons button {
+  width: 30%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .phone-img {
+  width: 50%;
+}
+
+.container .phone-img img {
+  border-radius: 40px;
+}
+
+.container .person {
+  width: 50%;
+}
+
+.container .person img {
+  border-radius: 45%;
+}
+
+.container .team {
+  height: 100vh;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    .phone-img{
+        width: 50%;
+        img{
+            //width: 100%;
+            //height: 10vh;
+            border-radius: 40px;
+            
+        }
+    
+}
+.person{
+    width:50%;
+    img{
+        //width: 100%;
+        //height: 10vh;
+        border-radius: 45%;
+        
+    }
+
+}
+.team{
+    height: 100vh;
+}
+}
